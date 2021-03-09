@@ -3,8 +3,8 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        echo 'Hi, this is Anshul from LevelUp360'
-                        echo 'We are Starting the Testing'
+                        echo 'Hi, this is Vishal testing jenkins DSL '
+                        echo 'We are Starting the Jenkins DSL Testing'
                   }
             }
             stage('Build') {
@@ -17,6 +17,12 @@ pipeline {
                         echo "Deploying in Staging Area"
                   }
             }
+            stage('Deploy Staging') {
+                  steps {
+                        echo "Deploying in Staging Area"
+                  }
+            }
+           
             stage('Deploy Production') {
                   steps {
                         echo "Deploying in Production Area"
