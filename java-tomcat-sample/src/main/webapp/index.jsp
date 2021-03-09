@@ -1,4 +1,5 @@
 <html>
 <body>
-<h2>Hello World! Welcome to Jenkins Training. Modified Build pipeline to deploy artifactes to Staging. Making Jobs interdependent. Practising for 3rd time....</h2>
+<h2> Hello Built pipeline view and now configured auto deploy to stage and prod environment....! </h2>
+<h2> VOILA............IT WORKS </h2>
 </html>
