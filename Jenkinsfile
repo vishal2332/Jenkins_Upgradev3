@@ -12,6 +12,11 @@ pipeline {
                        echo "Building the code"
                  }
            }
+           stage('Deploy on Staging') {
+                 steps {
+                       echo "Deploying in staging area"
+                 }
+           }
       }
 
 
