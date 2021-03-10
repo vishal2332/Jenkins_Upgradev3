@@ -2,7 +2,11 @@ pipeline{
     agent any
     stages {
         stage('Build Application') {
-            sh mvn -f java-tomcat-sample/pom.xml
+            steps {
+                sh mvn -f java-tomcat-sample/pom.xml
+
+            }
+            
         }
 
 
