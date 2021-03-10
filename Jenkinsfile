@@ -7,6 +7,11 @@ pipeline {
                      echo 'i am writing this jenkins file manually'
                  }
            }
+           stage('Build') {
+                 steps {
+                       echo "Building the code"
+                 }
+           }
       }
 
 
