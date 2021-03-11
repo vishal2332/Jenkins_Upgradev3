@@ -20,6 +20,13 @@ pipeline {
             }
             
         }
+        stage('Deploy In Production'){
+            steps {
+                build job: 'Deploy-Application-On-Prod-Environment'
+
+        }
+            
+            }
 
 
     }
